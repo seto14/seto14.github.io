@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta property="og:title" content="">
+	<title>sayon_post</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta content="#" property="#">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+
+<header id="menu" class=" ">
+    <div class="container">
+        <div class="row">
+            <div class="menu__inner d-flex">
+                <div class="col-lg-12 d-flex ml-auto">
+                    <nav class="navbar navbar-expand-lg navbar-light d-flex">
+                        <p class="sayon">
+                            <a href="">say<br>on.</a>
+                        </p>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+							   <i class="fas fa-bars"></i>
+							  </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Photo of the day<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Best of the  week<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Video</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Travel</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Life hacks</a>
+                                </li>
+                                <li class="nav-item" id="custom-search-input">
+                                    <div class="input-group">
+                                        <input type="text" class="search-query form-control" placeholder="Search" />
+                                        <span class="input-group-btn">
+						                    <button type="button" disabled>
+						                          <span class="fa fa-search"></span>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="nav-item nav-item2 d-flex">
+                                    <div class="social__button3 ">
+                                        <a href="" class="subscribe3">Sayon.fun</a></div>
+                                    <a href="#" class="social__in"><img src="img/in.svg" alt="in"></a> <a href="#" class="social__fb"><img src="img/fb.svg" alt="fb"></a>
+                                </li>
+                                <li class="nav-item social__serch ">
+                                    <div id="myOverlay" class="overlay">
+                                        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                                        <div class="overlay-content">
+                                            <form action="/action_page.php">
+                                                <input type="text" placeholder="Search.." name="search">
+                                                <button type="submit"><i class="fa fa-search"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <a class="openBtn" onclick="openSearch()"><img src="img/serch.svg" class="social__serch" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="back-top">
+    <div class="container">
+        <div class="row">
+            <div class="menu__inner d-flex">
+                <div class="col-lg-12 d-flex ml-auto">
+                    <div class="sayon4">
+                        <a href="">say<br>on.</a>
+                    </div>
+                    <div class="social__button4 d-flex">
+                        <a href="" class="subscribe4"><span>Subscribe on</span> Sayon.fun</a>
+                        <div class="social__button__inner4 d-flex">
+                            <a href="" class="facebook4"><img src="img/facebook.svg" alt=""><span class="offset4">Share</span></a>
+                            <a href="" class="share4"><img src="img/twitter.svg" alt=""><span class="offset4">Share</span></a>
+                        </div>
+                    </div>
+                    <div class="social2 d-flex">
+                        <div class="social__in2">
+                            <a href="#"><img src="img/in.svg" alt="in"></a>
+                        </div>
+                        <div class="social__fb2">
+                            <a href="#"><img src="img/fb.svg" alt="fb"></a>
+                        </div>
+                        <div class="box">
+                            <div class="container-2">
+                                <div class=" social__serch ">
+                                    <div id="myOverlay" class="overlay">
+                                        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                                        <div class="overlay-content">
+                                            <form action="/action_page.php">
+                                                <input type="text" placeholder="Search.." name="search">
+                                                <button type="submit"><i class="fa fa-search"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <a class="openBtn" onclick="openSearch()"><img src="img/serch.svg" class="social__serch" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="first_block" class="first_block">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2 class="title__main_fitst">
+                    Fibonacci, Tribonacci and friends fibonacci, Tribonacci and friends
+                </h2>
+                <div class="social__button d-flex">
+                    <a href="" class="subscribe"><span>Subscribe on</span> Sayon.fun</a>
+                    <div class="social__button__inner d-flex">
+                        <a href="" class="facebook"><img src="img/facebook.svg" alt=""><span class="offset">Share</span></a>
+                        <a href="" class="share"><img src="img/twitter.svg" alt=""><span class="offset">Share</span></a>
+                    </div>
+                </div>
+                <div class="post1">
+                    <div class="post1_1">
+                        <img src="img/pic19.png" class="post1__img1" alt="">
+                        <p class="post__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p class="post__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div class="post1_2">
+                        <img src="img/pic20.png" class="post1__img2" alt="">
+                        <h3 class="post__title">Fibonacci, Tribonacci and friends fibonacci, Tribonacci and friends
+                        </h3>
+                        <p class="post__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+                <div class="social__button2 d-flex">
+                    <a href="" class="facebook2"><img src="img/facebook.svg" alt=""><span class="offset2">Like</span></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="first_block_sider">
+                    <a href="">
+                        <div class="next_post">Next post<img src="img/right_b.png" class="right_post" alt=""></div>
+                    </a>
+                    <img src="img/pic3.png" alt="thrimg" class="thrimg">
+                    <p class="recom">recommendations</p>
+                    <a href="">
+                        <div class="first__block">
+                            <div class="block1__input d-flex">
+                                <p class="input_1">21 apr 2018</p>
+                                <p class="input_2"><i class="fas fa-eye"></i></p>
+                                <p class="input_3">3.0 K</p>
+                                <p class="input_4"><i class="fas fa-comment-alt"></i></p>
+                                <p class="input_5">15</p>
+                            </div>
+                            <h2 class="title">Fibonacci, Tribonacci and friends</h2>
+                            <p class="title__text">Приветствую тебя, пустынный уголок, Приют спокойствия, трудов и вдохновенья, Где льется дней моих невидимый поток На лоне счастья и забвенья ...</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="first__block">
+                            <div class="block3__input d-flex">
+                                <p class="input_1">21 apr 2018</p>
+                                <p class="input_2"><i class="fas fa-eye"></i></p>
+                                <p class="input_3">3.0 K</p>
+
+                                <p class="input_4"><i class="fas fa-comment-alt"></i></p>
+                                <p class="input_5">15</p>
+                            </div>
+                            <h2 class="title">У лукоморья дуб зеленый</h2>
+                            <p class="title__text">У лукоморья дуб зеленый; Златая цепь на дубе том: И днем и ночью кот ученый Всё ходит по цепи кругом; Идет направо — песнь заводит ...</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="first__block">
+                            <div class="block4__input d-flex">
+                                <p class="input_1">21 apr 2018</p>
+                                <p class="input_2"><i class="fas fa-eye"></i></p>
+                                <p class="input_3">3.0 K</p>
+                                <p class="input_4"><i class="fas fa-comment-alt"></i></p>
+                                <p class="input_5">15</p>
+                            </div>
+                            <h2 class="title">Fibonacci, Tribonacci and friends</h2>
+                            <p class="title__text">Приветствую тебя, пустынный уголок, Приют спокойствия, трудов и вдохновенья, Где льется дней моих невидимый поток На лоне счастья и забвенья ...</p>
+                        </div>
+                    </a>
+                    <img src="img/pic3.png" alt="thrimg" class="thrimg">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+	
+<section id="reclam4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3"><img src="img/pic21.png" class="reclam4" alt=""></div>
+            <div class="col-lg-3"><img src="img/pic21.png" class="reclam4" alt=""></div>
+            <div class="col-lg-3"><img src="img/pic21.png" class="reclam4" alt=""></div>
+            <div class="col-lg-3"><img src="img/pic21.png" class="reclam4" alt=""></div>
+        </div>
+    </div>
+</section>
+
+
+<section id="third_block" class="third_block">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="carousel__text">
+                    best<br>posts
+                </div>
+                <div class="owl-nav">
+                    <button type="button" role="presentation" class="prev">
+								<span aria-label="Previous"><img src="img/left.png" alt=""></span>
+							</button>
+                    <button type="button" role="presentation" class="next"><span aria-label="Next"><img src="img/right.png" alt=""></span></button>
+                </div>
+            </div>
+            <div class="col-lg-10">
+                <div class="carousel1 owl-theme">
+                    <div id="bc_fix">
+                        <!--  <div id="bc_overlay" style="background-color: rgba(247, 247, 247, 0.5); position: absolute; left: 388px; right: 0px; width: 60%; min-height: 95%; z-index: 1000"></div>-->
+                        <div class="owl-carousel bc1" id="owl-carousel" style="transition: 0.25s; width: 1110px; transform: translate3d(0px, 0px, 0px);">
+                            <div class="item">
+                                <a href="">
+                                    <div class="thitd__block_carousel">
+                                        <div class="block5__input d-flex">
+                                            <p class="input_1">21 apr 2018</p>
+                                            <p class="input_2"><i class="fas fa-eye"></i></p>
+                                            <p class="input_3">3.0 K</p>
+                                            <p class="input_4"><i class="fas fa-comment-alt"></i></p>
+                                            <p class="input_5">15</p>
+                                        </div>
+                                        <h2 class="title">Fibonacci, Tribonacci and friends</h2>
+                                        <p class="title__text">Приветствую тебя, пустынный уголок, Приют спокойствия, трудов и вдохновенья, Где льется дней моих невидимый поток На лоне счастья и забвенья ...</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="">
+                                    <div class="thitd__block_carousel">
+                                        <div class="block6__input d-flex">
+                                            <p class="input_1">21 apr 2018</p>
+                                            <p class="input_2"><i class="fas fa-eye"></i></p>
+                                            <p class="input_3">3.0 K</p>
+                                            <p class="input_4"><i class="fas fa-comment-alt"></i></p>
+                                            <p class="input_5">15</p>
+                                        </div>
+                                        <h2 class="title">Fibonacci, Tribonacci and friends</h2>
+                                        <p class="title__text">Приветствую тебя, пустынный уголок, Приют спокойствия, трудов и вдохновенья, Где льется дней моих невидимый поток На лоне счастья и забвенья ...</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="">
+                                    <div class="thitd__block_carousel">
+                                        <div class="block7__input d-flex">
+                                            <p class="input_1">21 apr 2018</p>
+                                            <p class="input_2"><i class="fas fa-eye"></i></p>
+                                            <p class="input_3">3.0 K</p>
+                                            <p class="input_4"><i class="fas fa-comment-alt"></i></p>
+                                            <p class="input_5">15</p>
+                                        </div>
+                                        <h2 class="title">Fibonacci, Tribonacci and friends</h2>
+                                        <p class="title__text">Приветствую тебя, пустынный уголок, Приют спокойствия, трудов и вдохновенья, Где льется дней моих невидимый поток На лоне счастья и забвенья ...</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="">
+                                    <div class="thitd__block_carousel">
+                                        <div class="block8__input d-flex">
+                                            <p class="input_1">21 apr 2018</p>
+                                            <p class="input_2"><i class="fas fa-eye"></i></p>
+                                            <p class="input_3">3.0 K</p>
+                                            <p class="input_4"><i class="fas fa-comment-alt"></i></p>
+                                            <p class="input_5">15</p>
+                                        </div>
+                                        <h2 class="title">Fibonacci, Tribonacci and friends</h2>
+                                        <p class="title__text">Приветствую тебя, пустынный уголок, Приют спокойствия, трудов и вдохновенья, Где льется дней моих невидимый поток На лоне счастья и забвенья ...</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="seven_block" class="seven_block">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="carousel2__text">
+                    photo<br> of the<br> day
+                </div>
+                <div class="owl-nav2">
+                    <button type="button" role="presentation" class="prev2">
+							<span aria-label="Previous"><img src="img/left.png" alt=""></span>
+						</button>
+                    <button type="button" role="presentation" class="next2"><span aria-label="Next"><img src="img/right.png" alt=""></span></button>
+                </div>
+            </div>
+            <div class="col-lg-10">
+                <div class="carousel2 owl-theme">
+                    <div id="bc_fix">
+                        <!-- <div id="bc_overlay" style="background-color: rgba(247, 247, 247, 0.5); position: absolute; left: 488px; right: 0px; width: 50%; min-height: 100%; z-index: 1000"></div>-->
+                        <div class="owl-carousel bc2" id="owl-carousel2" style="transition: 0.25s; width: 1410px; transform: translate3d(4px, 0px, 0px);">
+                            <div class="item">
+                                <a href="">
+                                    <div class="second3__block">
+                                        <div class="block3__input1 d-flex jastify-content-between">
+                                            <p class="input_1">21 apr 2018</p>
+                                            <p class="input_2"><i class="fas fa-eye"></i></p>
+                                            <p class="input_3">3.0 K</p>
+                                            <p class="input_4"><i class="fas fa-comment-alt"></i></p>
+                                            <p class="input_5">15</p>
+                                        </div>
+                                        <div class="block2__input2">
+                                            The picture village
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="">
+                                    <div class="second4__block">
+                                        <div class="block4__input1 d-flex jastify-content-between">
+                                            <p class="input_1">21 apr 2018</p>
+                                            <p class="input_2"><i class="fas fa-eye"></i></p>
+                                            <p class="input_3">3.0 K</p>
+                                            <p class="input_4"><i class="fas fa-comment-alt"></i></p>
+                                            <p class="input_5">15</p>
+                                        </div>
+                                        <div class="block2__input2">
+                                            The picture village
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="">
+                                    <div class="second5__block">
+                                        <div class="block5__input1 d-flex jastify-content-between">
+                                            <p class="input_1">21 apr 2018</p>
+                                            <p class="input_2"><i class="fas fa-eye"></i></p>
+                                            <p class="input_3">3.0 K</p>
+                                            <p class="input_4"><i class="fas fa-comment-alt"></i></p>
+                                            <p class="input_5">15</p>
+                                        </div>
+                                        <div class="block2__input2">
+                                            The picture village
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="cooments__facebook">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="cooments__facebook d-flex">
+                    <img src="img/fb-logo.png" class="cooments__facebook__img" alt="">
+                    <p class="cooments__facebook__text">
+                        Comments from Facebook
+                    </p>
+                </div>
+                <!-- Load Facebook SDK for JavaScript -->
+                <!-- <div id="fb-root"></div>
+						<script>(function(d, s, id) {
+						  var js, fjs = d.getElementsByTagName(s)[0];
+						  if (d.getElementById(id)) return;
+						  js = d.createElement(s); js.id = id;
+						  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+						  fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));</script>-->
+
+                <!-- Your embedded comments code -->
+                <!--<div class="fb-comment-embed"
+						   data-href="https://www.facebook.com/zuck/posts/10102735452532991?comment_id=1070233703036185"
+						   data-width="720"></div>-->
+                <div class="cooments__facebook_input">
+                    <img src="img/line.png" alt="" class="line">
+                    <img src="img/form_fb.png" alt="" class="form_fb">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="tach">
+    <div class="container">
+        <div class="row">
+            <div class="tach d-flex ">
+                <div class="col-lg-6">
+                    <div class="tach_title">
+                        <p class="tach__main">Do you want to get the best articles from Sayon once a week?</p>
+                        <p class="tach__text">Subscribe to the Sayon mailing list</p>
+                    </div>
+                    <form action="#" class="form">
+                        <input type="email" placeholder="Enter your email" class="form__input" required>
+                        <button type="submit" class="form__btn">Subscribe</button>
+                    </form>
+                        <label>
+				            <input type="checkbox" value="" required>
+				            <a href="I agree with the terms of processing of <strong>personal data" target="blank_" class="prehead__a">I agree with the terms of processing of <strong>personal data</strong></a>
+				        </label>
+                </div>
+                <div class="col-lg-6">
+                    <div class="tach__bg">
+                        <img src="img/bg5.png" alt="bg5" class="bg5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="sayon2">
+                    <a href="">say<br>on.</a>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">kontact<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Subscribe instagram<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Subscribe facebook</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="scrollup">
+        <i class="fa fa-chevron-up"></i>
+    </div>
+</footer>
+	
+
+	<!-- Script -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
